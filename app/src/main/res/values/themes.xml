@@ -6,4 +6,15 @@
     </style>
 
     <style name="Theme.Blood" parent="Base.Theme.Blood" />
+
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- other style attributes -->
+
+        <!-- Set status bar color -->
+        <item name="android:statusBarColor">#2A63F2</item>
+
+        <!-- Set status bar icon color -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
 </resources>
