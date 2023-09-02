@@ -3,11 +3,18 @@ package com.example.blood
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.blood.databinding.ActivityMainBinding
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar
 
 class MainActivity : AppCompatActivity() {
 
     lateinit var mainBinding: ActivityMainBinding
+
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -19,12 +26,20 @@ class MainActivity : AppCompatActivity() {
        mainBinding.buttonSignup.setOnClickListener {
            val intent = Intent(this@MainActivity,SignUp::class.java)
            startActivity(intent)
+           finish()
 
     }
         mainBinding.buttonSignin.setOnClickListener {
             val intent = Intent(this@MainActivity,SignIn::class.java)
             startActivity(intent)
+            finish()
         }
 
+
+
     }
-}
+
+
+
+    }
+

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "375149472837",
+    "project_id": "bloodunity-599ce",
+    "storage_bucket": "bloodunity-599ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375149472837:android:634a0301d8c9615de4872c",
+        "android_client_info": {
+          "package_name": "com.example.blood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375149472837-e894pf88pms7r87fmr78ae61v6560ks4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blood",
+            "certificate_hash": "9af863e64160bf2373fc5374f6e5a026d4d20323"
+          }
+        },
+        {
+          "client_id": "375149472837-h5flveosl2pjfnvmvlchkku7rhhl9rop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbrCm1o4dMG9lQo_lBIEi_5dWrNv335rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375149472837-h5flveosl2pjfnvmvlchkku7rhhl9rop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
